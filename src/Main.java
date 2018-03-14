@@ -6,7 +6,7 @@ public class Main {
 
 	public static void imprimir(){
 		if(root == null){
-			System.out.println("Arvore vazia");
+			System.out.println("Vazio");
 		} else {
 			imprimir(root);
 		}
